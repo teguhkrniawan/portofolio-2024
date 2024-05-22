@@ -1,0 +1,18 @@
+.profile-photo{
+    width: 130px;
+    height: 130px;
+}
+
+.socials .social-btn{
+    transition: .3s;
+}
+
+.socials .social-btn:hover{
+    transform: translateY(-5px);
+    color: #0D6EFD !important;
+}
+
+.desc {
+    margin-top: 30px;
+    gap: 60px
+}

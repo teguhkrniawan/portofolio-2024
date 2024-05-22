@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 30vh;
+    }
+
+    .icon-medal {
+        width: 3em !important;
+    }
+}
